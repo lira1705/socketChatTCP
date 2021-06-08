@@ -10,7 +10,7 @@ b. As mensagens enviadas por um cliente são replicadas para todos os outros cli
 No primeiro exemplo existe apenas uma conexão ponta a ponta, então não é necessário se preocupar em repassar uma mensagem de uma conexão para outros usuários.  
 
 ## Quais as principais diferenças entre a implementação da questão 1 e da questão 2?  
-Para criar o chat foi necessário manipular uma lista das conexões, pois a biblioteca não tem uma implementação de broadcast. Ou seja, precisei enviar uma mensagem para cada usuário na lista de conexões.
+Para criar o chat foi necessário manipular uma lista das conexões, pois a biblioteca não tem uma implementação de broadcast. Ou seja, precisei enviar uma mensagem para cada usuário na lista de usuários.
 Com isso surgiu a complexidade de adicionar/deletar/buscar na lista.
 
 ## Como gerenciar as conexões entre clientes na questão 2?  
