@@ -14,6 +14,7 @@ const handleConnection = socket => {
 
     socket.on('data', (data) => {
         const msg = data.toString()
+
         if (socket.name == null) {
             addUser(socket, msg)
         }
