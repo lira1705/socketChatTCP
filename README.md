@@ -2,7 +2,7 @@
   
 Exercício voltado para a criação de um chat entre vários usuários baseado nesse tutorial: https://www.youtube.com/watch?v=R84rTfBMaoU
 
-Requisitos:
+Requisitos:  
 a. O servidor deve pedir ao usuário cliente para digitar um nome de modo que as mensagens de cada usuário possam ser identificadas.  
 b. As mensagens enviadas por um cliente são replicadas para todos os outros clientes.  
 
